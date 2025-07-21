@@ -1,0 +1,81 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+  background-color: #f9f9fc;
+}
+
+.bg {
+  background-color: #81d4fa;
+}
+
+header {
+  background-color: #81d4fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-weight: 600;
+}
+
+.hero {
+  background-color: #f9f9fc;
+  padding: 4rem 0;
+  border-bottom: 2px solid #81d4fa;
+}
+
+.hero .btn {
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.skills img,
+.learning img,
+.other-skills img {
+  height: 50px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #81d4fa;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+i {
+  font-size: 1.8rem;
+  margin: 0 10px 0 0;
+  color: #212529;
+}
+
+form label {
+  font-weight: 500;
+}
+
+form input,
+form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+}
+
+form button {
+  border-radius: 8px;
+  background-color: #81d4fa;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
